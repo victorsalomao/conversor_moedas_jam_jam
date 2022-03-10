@@ -1,0 +1,93 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.imersao-logo{
+  display: block;
+  text-align: center;
+}
+
+body {
+  display: block;
+  text-align: center;
+  background-color: gray;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.victor-foto{
+  display: inline; 
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.origem {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-decoration-style: solid;
+}
+#origem {
+  font-family: 'Press Start 2P', cursive;
+  color: white; 
+  text-justify: auto;
+}
+form {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+label {
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+#real, #dolar{
+  color: rgb(34, 36, 34);
+  background-color: rgb(163, 167, 163) ;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  animation-name: transicao2;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: 99;
+}
+button {
+  width: 80px;
+  padding: 20px;
+  border-radius: 20px;
+  color:rgb(96, 81, 228);
+  box-sizing: border-box;
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  margin: 20px; 
+  animation-name: transicao;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: 99;
+}
+/* button:hover{ */
+  /* width: 200px; */
+  /* transform: scale(1.2); */
+  /* transition: width  3s; */
+  /* color: pink;  */
+/* } */
+
+@keyframes transicao {
+  from {background-color: red;}
+  to {background-color: yellow;}
+  to {width: 200px;}
+  
+}
+
+@keyframes transicao2 {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+@keyframes transicao3 {
+  from {font-size: 20px;}
+  to {background-color: yellow;}
+}
